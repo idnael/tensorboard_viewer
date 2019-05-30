@@ -1,0 +1,11 @@
+#!/bin/bash
+
+PYTHON=/usr/bin/python3
+
+BIN=`readlink --canonicalize "$0"`
+# run main.py from the same place where this script is
+BASEDIR=`dirname "$BIN"`
+
+# modify this to force a python interpreter with gtk support
+# instead of the one from the current anaconda environment
+$PYTHON "$BASEDIR"/main.py "$@"

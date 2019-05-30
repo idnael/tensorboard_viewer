@@ -1,0 +1,12 @@
+criar novo github
+
+ver carga cpu por causa da espera activa
+
+ATENCAO
+Se fizer F5 no chrome, ele altera o titulo, e a screipt pensa que janela foi fechada
+
+Como divulgar?
+
+
+acho que firefox nao suporta --app ...
+
