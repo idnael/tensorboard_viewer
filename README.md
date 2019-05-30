@@ -7,7 +7,7 @@ both places also.
 With this script it is much simpler.
 
 Use:
-`tensorboard_chrome.sh --logdir=/tmp/mycheckpoints <other tensorboard options...>`
+`tensorboard_viewer.sh --logdir=/tmp/mycheckpoints <other tensorboard options...>`
 
 This will launch tensorboard, and open a Google Chrome app mode window (with no toolbars) connected to the tensorboard url.
 
